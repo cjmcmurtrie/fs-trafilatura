@@ -95,7 +95,8 @@ setup(
         'htmldate >= 1.3.0',
         'justext >= 3.0.0',
         'lxml >= 4.6.4',
-        'urllib3 >= 1.26, < 2',
+        'urllib3 == 1.26'
+        # 'urllib3 >= 1.26, < 2',
     ],
     extras_require=extras,
     entry_points={
